@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #b8bedd;
+}
+
+main {
+	height: 100vh;
+	display: flex;
+}
+
+section {
+	height: 300px;
+	width: 400px;
+	border: 4px solid white;
+	border-radius: 10px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center {
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
+}
+
+.petal-style {
+	border-radius: 100px 0px;
+	height: 100px;
+	background: #f0a6ca;
+	border: 1px solid #f0e6ef;
+	position: absolute;
+}
+
+.petal-one {
+	transform: rotate(130deg);
+	width: 120px;
+	z-index: 10;
+}
+
+.petal-two {
+	z-index: 9;
+	width: 120px;
+	border-radius: 130px 0;
+	transform: translateX(64px) translateY(34px) rotate(187deg);
+}
+
+.petal-three {
+	z-index: 9;
+	border-radius: 130px 0;
+	width: 120px;
+	transform: scale(-1, 1) translateX(64px) translateY(34px) rotate(187deg);
+}
+
+.petal-four {
+	width: 90px;
+	transform: rotate(176deg) translate(-42px, 6px);
+	z-index: 8;
+}
+
+.petal-five {
+	width: 90px;
+	transform: scale(-1, 1) rotate(176deg) translate(-42px, 6px);
+	z-index: 8;
+}
+
+.petal-six {
+	z-index: 7;
+	width: 50px;
+	height: 60px;
+	transform: rotate(5deg) translate(86px, -22px);
+}
+
+.petal-seven {
+	z-index: 7;
+	width: 50px;
+	height: 60px;
+	transform: rotate(5deg) translate(-89px, -5px) scale(-1, 1);
+}
+
+.petal-eight {
+	width: 100px;
+	z-index: 6;
+	height: 100px;
+	transform: rotate(66deg) translate(10px, 101px);
+}
+
+.petal-nine {
+	width: 100px;
+	z-index: 6;
+	height: 100px;
+	transform: scale(-1, 1) rotate(66deg) translate(10px, 101px);
+}
+
+.leaf {
+	width: 300px;
+	height: 50px;
+	/* border: 1px solid black; */
+	border-radius: 50%;
+	background: #cbe896;
+	transform: translate(0px, 82px);
+	position: absolute;
+}
